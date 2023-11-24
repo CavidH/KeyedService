@@ -1,0 +1,14 @@
+@KeyedService_HostAddress = http://localhost:5179
+
+GET {{KeyedService_HostAddress}}/XPay/
+Accept: application/json
+
+###
+GET {{KeyedService_HostAddress}}/YPay/
+Accept: application/json
+
+###
+GET {{KeyedService_HostAddress}}/ZPay/
+Accept: application/json
+
+###
